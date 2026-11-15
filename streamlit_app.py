@@ -12,7 +12,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from final_project import MealDBAPIClient, Recipe, RecipeGraph, RecipeRecommender
+from recipe_graph import MealDBAPIClient, Recipe, RecipeGraph, RecipeRecommender
 
 st.set_page_config(page_title="Recipe Graph Explorer")
 
