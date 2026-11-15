@@ -2,6 +2,8 @@
 
 An interactive app that models recipes as a graph, with meals connected to the ingredients they use, so you can explore food data through search, comparison, ranking, shortest paths, and pantry-based recommendations.
 
+
+
 <table>
   <tr>
     <td width="33%" valign="top"><img src="docs/final-project.png" width="100%" alt="Mode selector"></td>
@@ -14,7 +16,8 @@ An interactive app that models recipes as a graph, with meals connected to the i
     <td align="center"><sub>Ingredient search</sub></td>
   </tr>
 </table>
-<!-- After deploying, add: **Live demo:** https://your-app.streamlit.app -->
+
+https://recipe-graph.streamlit.app
 
 ## What it does
 
