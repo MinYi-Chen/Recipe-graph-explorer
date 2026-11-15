@@ -2,16 +2,16 @@
 
 An interactive app that models recipes as a graph, with meals connected to the ingredients they use, so you can explore food data through search, comparison, ranking, shortest paths, and pantry-based recommendations.
 
-Built for SI 507 (Intermediate Programming) at the University of Michigan School of Information.
-
-<p align="center">
-  <img src="docs/final-project.png" width="500" alt="App screenshot">
-</p>
-
-<p align="center">
-  <img src="docs/shortest-path.png" width="40%" alt="Shortest path (BFS)">
-  <img src="docs/ingredient-search.png" width="40%" alt="Ingredient search">
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top"><img src="docs/shortest-path.png" width="100%" alt="Shortest path (BFS)"></td>
+    <td width="50%" valign="top"><img src="docs/ingredient-search.png" width="100%" alt="Ingredient search"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Shortest path between two ingredients (BFS)</sub></td>
+    <td align="center"><sub>Search recipes by multiple ingredients</sub></td>
+  </tr>
+</table>
 <!-- After deploying, add: **Live demo:** https://your-app.streamlit.app -->
 
 ## What it does
