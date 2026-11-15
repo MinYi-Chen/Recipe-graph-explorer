@@ -4,10 +4,11 @@ An interactive app that models recipes as a graph, with meals connected to the i
 
 Built for SI 507 (Intermediate Programming) at the University of Michigan School of Information.
 
-<!-- After you add a screenshot to docs/screenshot.png, uncomment the next line. -->
-![App screenshot](docs/Final Project.png)
-![Shortest path](docs/Shortest Path (BFS).png)
-![Ingredient Search](docs/Ingredient Search.png)
+![App screenshot](docs/final-project.png)
+
+![Shortest path](docs/shortest-path.png)
+
+![Ingredient search](docs/ingredient-search.png)
 <!-- After deploying, add: **Live demo:** https://your-app.streamlit.app -->
 
 ## What it does
