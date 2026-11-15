@@ -1,6 +1,5 @@
 import unittest
-from final_project import Recipe, RecipeGraph, RecipeRecommender
-
+from recipe_graph import Recipe, RecipeGraph, RecipeRecommender
 
 class TestRecipeGraph(unittest.TestCase):
     """Test suite for the Recipe, RecipeGraph, and RecipeRecommender classes.
