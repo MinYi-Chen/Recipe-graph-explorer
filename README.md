@@ -6,7 +6,7 @@ An interactive app that models recipes as a graph, with meals connected to the i
 
 <table>
   <tr>
-    <td width="33%" valign="top"><img src="docs/final-project.png" width="100%" alt="Mode selector"></td>
+    <td width="33%" valign="top"><img src="docs/mode-selector.png" width="100%" alt="Mode selector"></td>
     <td width="33%" valign="top"><img src="docs/shortest-path.png" width="100%" alt="Shortest path (BFS)"></td>
     <td width="33%" valign="top"><img src="docs/ingredient-search.png" width="100%" alt="Ingredient search"></td>
   </tr>
@@ -17,7 +17,7 @@ An interactive app that models recipes as a graph, with meals connected to the i
   </tr>
 </table>
 
-https://recipe-graph.streamlit.app
+**Live demo:** [recipe-graph.streamlit.app](https://recipe-graph.streamlit.app)
 
 ## What it does
 
@@ -31,7 +31,7 @@ The app pulls recipe records from [TheMealDB](https://www.themealdb.com/api.php)
 
 ## Design
 
-The code is object-oriented, with four classes in `final_project.py`:
+The code is object-oriented, with four classes in `recipe_graph.py`:
 
 | Class | Responsibility |
 |---|---|
@@ -44,7 +44,7 @@ For shortest-path results, the displayed path alternates between ingredient and 
 
 ## Testing
 
-`final_project_test.py` uses Python's built-in `unittest`. The tests build a small graph from hand-written `Recipe` objects instead of calling the live API, so they are fast and deterministic. They cover data cleaning, graph construction, search, ranking, shortest paths (including excluded nodes and unreachable ingredients), recommendations, and edge cases such as empty input, missing ingredients, and start equal to end.
+`test_recipe_graph.py` uses Python's built-in `unittest`. The tests build a small graph from hand-written `Recipe` objects instead of calling the live API, so they are fast and deterministic. They cover data cleaning, graph construction, search, ranking, shortest paths (including excluded nodes and unreachable ingredients), recommendations, and edge cases such as empty input, missing ingredients, and start equal to end.
 
 ## Run it locally
 
@@ -56,13 +56,13 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Web app
-streamlit run final_project_streamlit.py
+streamlit run streamlit_app.py
 
 # Command-line version
-python final_project.py
+python recipe_graph.py
 
 # Tests
-python -m unittest final_project_test
+python -m unittest test_recipe_graph
 ```
 
 The app makes 26 API requests on first load and caches the result for the session.
@@ -70,10 +70,10 @@ The app makes 26 API requests on first load and caches the result for the sessio
 ## Project files
 
 ```
-final_project.py             Data classes, graph, BFS, recommender, and the CLI
-final_project_streamlit.py   Streamlit interface (imports from final_project.py)
-final_project_test.py        Unit tests
-requirements.txt             Dependencies
+recipe_graph.py       Data classes, graph, BFS, recommender, and the CLI
+streamlit_app.py      Streamlit interface (imports from recipe_graph.py)
+test_recipe_graph.py  Unit tests
+requirements.txt      Dependencies
 ```
 
 ## Data
