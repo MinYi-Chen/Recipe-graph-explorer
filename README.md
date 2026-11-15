@@ -4,12 +4,14 @@ An interactive app that models recipes as a graph, with meals connected to the i
 
 <table>
   <tr>
-    <td width="50%" valign="top"><img src="docs/shortest-path.png" width="100%" alt="Shortest path (BFS)"></td>
-    <td width="50%" valign="top"><img src="docs/ingredient-search.png" width="100%" alt="Ingredient search"></td>
+    <td width="33%" valign="top"><img src="docs/final-project.png" width="100%" alt="Mode selector"></td>
+    <td width="33%" valign="top"><img src="docs/shortest-path.png" width="100%" alt="Shortest path (BFS)"></td>
+    <td width="33%" valign="top"><img src="docs/ingredient-search.png" width="100%" alt="Ingredient search"></td>
   </tr>
   <tr>
-    <td align="center"><sub>Shortest path between two ingredients (BFS)</sub></td>
-    <td align="center"><sub>Search recipes by multiple ingredients</sub></td>
+    <td align="center"><sub>Five modes</sub></td>
+    <td align="center"><sub>Shortest path (BFS)</sub></td>
+    <td align="center"><sub>Ingredient search</sub></td>
   </tr>
 </table>
 <!-- After deploying, add: **Live demo:** https://your-app.streamlit.app -->
